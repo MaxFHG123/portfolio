@@ -1,0 +1,274 @@
+
+body{
+    background-image: url(https://celes.club/uploads/posts/2022-05/1653409742_5-celes-club-p-beskonechnii-fon-dlya-saita-krasivie-5.jpg);
+    color: #FFFFFF;
+    background-size: cover;
+}
+.menu{
+    background-color: #FFFFFF;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: space-between;
+}
+.menu_text{
+    color: black;
+    display: flex;
+    width: 55%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-style: italic;
+    margin-right: 20px;
+}
+.menu_img{
+    width: 10%;
+}
+.menu_img img{
+    width: 60px;
+    border-radius: 50px;
+}
+header{
+    width: 100%;
+    height: 97.5vh;
+}
+.header_text{
+    max-width: 300px;
+}
+.hero-content h1{
+    font-size: 40px;
+}
+.header_text p{
+    font-size: 25px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    animation: typing 4s steps(60, end);
+}
+.header_text p:nth-child(2){
+    animation: typing-2 8s steps(60, end);
+}
+@keyframes typing{
+    from {width: 0;}
+}
+@keyframes typing-2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{width: 100;}
+}
+
+
+.hero-content{
+    text-align: center;
+    max-width: 300px;
+    padding: 65px;
+    background: rgba(255, 255, 255, 0.4);
+    outline: 10px double #FFFFFF;
+    margin: auto;
+    transform: translateY(50%);
+}
+
+
+
+
+
+
+.about{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about_item-left{
+    width: 40%;
+
+
+}
+.about_item-left img{
+    height: 100%;
+    width: 70%;
+}
+.about_item-right{
+    width: 40%;
+}
+.inright{
+    text-align: center;
+    font-size: 30px;
+}
+
+.work{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.leftwork{
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+    padding: 20px;
+    text-align: center;
+}
+.rightwork{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.leftwork h1{
+    text-align: center;
+}
+
+@media (max-width: 480px){
+    .rightwork img{
+        width: 75px;
+        height: 100px;
+    }
+}
+@media (max-width: 767px){
+    .rightwork img{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .rightwork img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .rightwork img{
+        width: 250px;
+        height: 250px;
+    }
+}
+@media (min-width: 1200px){
+    .rightwork img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.project{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+}
+.right{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.gallery{
+    border-radius: 120px;
+}
+.left h3{
+    text-align: center;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
+.right img{
+    opacity: 0.6;
+    padding: 20px;
+    border-radius: 35px;
+}
+img:hover{
+   opacity: 1;
+}
+ @media (min-width: 480px) and (max-width: 1600px){
+    .project{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .right img{
+        width: 40%;
+        height: 250px;
+    }
+    .left{
+        width: 60%;
+    }
+    .right{
+        width: 100%;
+    }
+} 
+
+
+ @media (min-width: 1101px){
+    .project{
+        display: flex;
+     
+    }
+    .right img{
+        width: 400px;
+        height: 250px;
+    }
+} 
+.education{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    font-size: large;
+    justify-content: space-between;
+}
+.text{
+    color: white;
+    width: 35%;
+    text-align: center;
+    justify-content: stretch;
+}
+.education_right{
+    width: 55%;
+    display: flex;
+    height: 300px;
+    justify-content: space-between;
+}
+.before{
+    color: white;
+    text-align: center;
+    background-color: rgb(48, 11, 83);
+    border-radius: 50px;
+    width: 45%;
+    padding: 10px;
+}
+.now{
+    color: white;
+    text-align: center;
+    background-color: rgb(48, 11, 83);
+    border-radius: 50px;
+    width: 45%;
+    padding: 10px;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: aliceblue;
+    opacity: 0.6;
+}
+.email{
+    color: black;
+    font-size: xx-large;
+}
+.h2_contacts{
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    padding: 0px;
+}
