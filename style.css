@@ -1,10 +1,10 @@
-
 body{
     background-image: url(https://celes.club/uploads/posts/2022-05/1653409742_5-celes-club-p-beskonechnii-fon-dlya-saita-krasivie-5.jpg);
     color: #FFFFFF;
     background-size: cover;
 }
 .menu{
+    border-radius: 30px;
     background-color: #FFFFFF;
     opacity: 0.6;
     position: fixed;
@@ -258,16 +258,18 @@ img:hover{
 
 .footer{
     width: 100%;
-    height: 250px;
+    height: 120px;
     background-color: aliceblue;
     opacity: 0.6;
 }
 .email{
+    margin-left: 5px;
     color: black;
     font-size: xx-large;
 }
 .h2_contacts{
     color: black;
+    margin-top: 5px;
     text-align: center;
     font-size: xx-large;
     padding: 0px;
