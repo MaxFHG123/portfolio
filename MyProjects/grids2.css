@@ -1,0 +1,129 @@
+body{
+    background-color: black;
+    background-size: cover;
+    color: beige;
+}
+.main img{
+    width: 40%;
+    height: 250px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+    padding: 25px;
+}
+header{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    font-size: 15px;
+}
+.space{
+    background-color: #262240;
+    border-radius: 40%;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    color: aliceblue;
+}
+nav div:hover{
+    background-color: rgb(255, 255, 255);
+    color: #262240;
+}
+@media(max-width: 700px){
+    .link{
+        font-size: 0.6rem;
+    }
+}
+nav div{
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 700px){
+    nav div{
+        width: 100px;
+        height: 50px;
+    }
+    .space{
+        width: 70px;
+        font-size: 1.8rem;
+    }
+}
+nav{
+    background-color: #262240;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.link{
+    border: 1.5px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    color: rgba(191, 193, 196, 0.87);
+}
+.text{
+    margin-bottom: 10px;
+} 
+a{
+    text-decoration: none;
+    color: rgb(201, 197, 197);
+}
+.content_1, .content_2, .content_3, .content_4, .content_5, .content_6{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.main{
+    grid-area: main;
+}
+header{
+    grid-area: header;
+}
+.content_1{
+    grid-area: content_1;
+}
+.content_2{
+    grid-area: content_2;
+}
+.content_3{
+    grid-area: content_3;
+}
+.content_4{
+    grid-area: content_4;
+}
+.content_4{
+    grid-area: content_4;
+}
+.content_5{
+    grid-area: content_5;
+}
+.content_6{
+    grid-area: content_6;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "content_1 content_2 content_3"
+    "content_1 content_2 content_6"
+    "content_4 content_2 content_6"
+    "content_4 content_5 content_6"
+    ;
+}
+img{
+    width: 100%;
+}

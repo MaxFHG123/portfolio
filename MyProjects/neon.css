@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #07252d;
+    text-align: center;
+    margin-top: 40vh;
+}
+h2{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 4em;
+    color: #0e3742;
+    text-transform: uppercase;
+    max-height: 30vh;
+    max-width: 80vh;
+}
+h2 span{
+    animation: animate 5s linear infinite;
+}
+@keyframes animate {
+	0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92% {
+        color: #0e3742;
+        text-shadow: none;
+    }
+	18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
+        color: #fff;
+        text-shadow: 0 0 10px #03bcf4, 0 0 20px #03bcf4, 0 0 40px #03bcf4, 0 0 80px #03bcf4, 0 0 160px #03bcf4, 0 0 400px #03bcf4;
+    }
+}
+h2 span:nth-child(even){
+    animation-delay: 0.4s;
+}
