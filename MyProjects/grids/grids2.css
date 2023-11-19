@@ -35,6 +35,11 @@ nav div:hover{
     background-color: rgb(255, 255, 255);
     color: #262240;
 }
+@media(max-width: 700px){
+    .link{
+        font-size: 0.6rem;
+    }
+}
 nav div{
     color: aliceblue;
     font-size: 20px;
@@ -44,6 +49,16 @@ nav div{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media (max-width: 700px){
+    nav div{
+        width: 100px;
+        height: 50px;
+    }
+    .space{
+        width: 70px;
+        font-size: 1.8rem;
+    }
 }
 nav{
     background-color: #262240;
@@ -55,6 +70,7 @@ nav{
     border: 1.5px solid white;
     border-radius: 15px;
     padding: 5px;
+    color: rgba(191, 193, 196, 0.87);
 }
 .text{
     margin-bottom: 10px;
