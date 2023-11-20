@@ -4,12 +4,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     /* height: 82.5vh; */
-    height: 100vh;
+    /* height: 100vh; */
     margin: 0;
 }
 .main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin: 50px auto;
     /* margin: 100px auto; */
     /* width: 80%; */
@@ -21,11 +21,24 @@ body{
     font-family: 'Moon Dance', cursive;
 
 }
-/* @media screen and (max-width: 700px){
-    .body{
-        height: 110vh;
+@media screen and (min-width: 700px){
+    .main{
+        flex-direction: row;
     } 
-}  */
+    .one{
+        border-right: 2px solid white;
+    }
+    body{
+        height: 100vh;  
+    }
+}  
+
+@media screen and (max-width: 700px) {
+    .one{
+        border-right: none;
+    }
+}
+
 img{
     border-radius: 50%;
     /* max-width: 10vh; */
@@ -35,7 +48,7 @@ img{
 .one{
     width: 50%;
     height: 80%;
-    border-right: 2px solid white;
+    /* border-right: 2px solid white; */
     padding: 0 40px;
     font-size: 20px;
 }
@@ -44,4 +57,4 @@ img{
     height: 90%;
     padding: 0 40px;
     font-size: 20px;
-}
+} 
