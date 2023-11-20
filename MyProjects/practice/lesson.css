@@ -3,12 +3,16 @@ body{
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 82.5vh;
+    /* height: 82.5vh; */
+    height: 100vh;
+    margin: 0;
 }
 .main{
     display: flex;
-    margin: 100px auto;
-    width: 80%;
+    flex-direction: row;
+    margin: 50px auto;
+    /* margin: 100px auto; */
+    /* width: 80%; */
     border: 3px solid aliceblue;
     border-radius: 25px;
     align-items: center;
@@ -17,10 +21,16 @@ body{
     font-family: 'Moon Dance', cursive;
 
 }
+/* @media screen and (max-width: 700px){
+    .body{
+        height: 110vh;
+    } 
+}  */
 img{
     border-radius: 50%;
-    max-width: 10vh;
-    max-width: 10vh;
+    /* max-width: 10vh; */
+    max-width: 100vh;
+    height: 10vh;
 }
 .one{
     width: 50%;
