@@ -25,6 +25,9 @@ body{
     font-style: italic;
     margin-right: 20px;
 }
+.menu_text div{
+    border: 5px solid transparent;
+}
 .menu_img{
     width: 10%;
 }
