@@ -127,3 +127,21 @@ header{
 img{
     width: 100%;
 }
+
+@media screen and (max-width: 700px) {
+    .grid {
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "header"
+        "main"
+        "content_1"
+        "content_2"
+        "content_3"
+        "content_4"
+        "content_5"
+        "content_6";
+    }
+    .main{
+        flex-direction: column;
+    }
+  }
