@@ -119,6 +119,11 @@ img{
     width: 100%;
 }
 
+.empty{
+    width: 0px;
+    height: 0px;
+}
+
 @media screen and (max-width: 700px) {
     .grid {
       /* grid-template-columns: 1fr; */
@@ -139,22 +144,17 @@ img{
     .space{
         font-size: 1.5rem;
     }
-    /* header{
-        padding: 2px;
-    } */
     nav div{
-        width: 80px;
+        width: 70px;
         height: 50px;
         font-size: 1rem;
     }
-  }
-  /* @media (max-width: 700px){
-    nav div{
-        width: 100px;
+    .empty{
+        width: 10px;
         height: 50px;
     }
-    .space{
-        width: 70px;
-        font-size: 1.8rem;
+    header{
+        justify-content: start; 
     }
-} */
+
+  }
