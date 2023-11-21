@@ -5,8 +5,8 @@ body{
 }
 .menu{
     border-radius: 30px;
-    background-color: #FFFFFF;
-    opacity: 0.6;
+    background-color: #eeebeb;
+    /* opacity: 10; */
     position: fixed;
     top: 0;
     display: flex;
@@ -28,6 +28,10 @@ body{
 .menu_text div{
     border: 5px solid transparent;
 }
+
+.menu_text div a{
+    color: rgb(134, 132, 132);
+}
 .menu_img{
     width: 10%;
 }
@@ -37,7 +41,14 @@ body{
 }
 header{
     width: 100%;
-    height: 70vh;
+    height: 650px;
+}
+
+
+@media (max-width: 700px){
+    header{
+        height: 40vh;
+    }
 }
 .header_text{
     max-width: 300px;
@@ -66,7 +77,6 @@ header{
     100%{width: 100;}
 }
 
-
 .hero-content{
     text-align: center;
     max-width: 300px;
@@ -76,10 +86,6 @@ header{
     margin: auto;
     transform: translateY(50%);
 }
-
-
-
-
 
 
 .about{
@@ -162,7 +168,7 @@ header{
 
 .project{
     width: 100%;
-    height: 800px;
+    height: 900px;
     display: flex;
     align-items: center;
 }
@@ -225,7 +231,7 @@ img:hover{
 } 
 .education{
     width: 100%;
-    height: 600px;
+    height: 450px;
     display: flex;
     font-size: large;
     justify-content: space-between;
